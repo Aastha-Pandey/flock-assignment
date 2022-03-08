@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.custom_cursor {
+  cursor: url('/public/images/cursor.png'), auto;
+}
