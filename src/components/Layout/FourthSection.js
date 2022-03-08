@@ -3,8 +3,8 @@ const FourthSection = () => {
     <>
       <div className='ml-10 flex flex-col md:grid md:grid-rows-2  md:grid-flow-col lg:grid lg:grid-rows-2  lg:grid-flow-col gap-4 mr-16'>
         <div
-          style={{ width: '28rem' }}
-          className='bg-yellow-400  pt-8 px-10 space-y-20 md:row-span-3 lg:row-span-3 flex flex-col items-center justify-start'
+          style={{ width: '28rem', backgroundColor: 'rgb(255, 255, 26)' }}
+          className=' pt-8 px-10 space-y-20 md:row-span-3 lg:row-span-3 flex flex-col items-center justify-start'
         >
           <img
             alt='Founder'

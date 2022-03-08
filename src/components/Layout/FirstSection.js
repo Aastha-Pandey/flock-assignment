@@ -34,13 +34,18 @@ const FirstSection = () => {
               src='/images/A-Gloei_HPH-4_500px_360x.jpg'
             />
           </div>
-          <marquee className='mt-60 text-9xl pb-10 text-gray-800 tracking-wider'>
+          <marquee className='mt-60 text-9xl  text-gray-800 tracking-wider'>
             Crowning Gloie Crowning Gloie
           </marquee>
           <span className='flex  flex-col items-center text-gray-600 font-medium tracking-widest text-xl pb-14'>
             <p> An antioxidant-rich oil blended</p>
             <p>with skin-smoothing retinol?</p>
             <p>That’s golden.</p>
+            <input
+              autoFocus
+              placeholder='Shop'
+              className='text-right w-16 caret-gray-700 focus:outline-none hover:border-b-2 hover:border-gray-600 placeholder:text-2xl placeholder:tracking-wider py-2 placeholder:text-gray-600 font-semibold'
+            ></input>
           </span>
         </div>
         <div className='fixed bottom-0 right-0 flex space-x-4 p-4'>

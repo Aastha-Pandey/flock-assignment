@@ -10,7 +10,10 @@ const SecondSection = () => {
             src='/images/A-Gloei_Smoothie_Creative_04_1080px_720x.jpg'
           />
         </div>
-        <div className='bg-yellow-400  w-full p-20 flex flex-col space-y-10 '>
+        <div
+          style={{ backgroundColor: 'rgb(255, 255, 26)' }}
+          className='  w-full p-20 flex flex-col space-y-10 '
+        >
           <p className='text-gray-600 leading-normal font-bold text-5xl tracking-wider'>
             Glowing
             <br />
