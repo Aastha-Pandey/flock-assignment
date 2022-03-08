@@ -20,7 +20,7 @@ const FirstSection = () => {
             src='/images/A-Gloei_HPH-4_500px_360x.jpg'
           />
         </div>
-        <marquee className='mt-60 text-5xl md:text-9xl lg:text-9xl text-gray-800 tracking-wider'>
+        <marquee className='mt-40 pb-8 md:mt-60 lg:mt-60 text-5xl md:text-9xl lg:text-9xl text-gray-800 tracking-wider'>
           Crowning Gloie Crowning Gloie
         </marquee>
         <span className='flex  flex-col items-center text-gray-600 font-medium tracking-widest text-xl pb-14'>

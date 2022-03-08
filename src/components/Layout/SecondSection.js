@@ -19,7 +19,7 @@ const SecondSection = () => {
             <br />
             Somewhere?
           </p>
-          <p className='text-gray-600 leading-relaxed font-medium text-3xl tracking-wider'>
+          <p className='text-gray-600 md:leading-relaxed lg:leading-relaxed font-medium text-2xl md:text-3xl lg:text-3xl tracking-wider'>
             Hell yeah, you are. For your <br></br> p.m. routine, mix 1 pump <br></br>T.L.C. Framboos
             + 1 pump B- <br></br> Hydra + 1-2 drops of A-Gloei <br></br> for smoother, hydrated,{' '}
             <br></br> thoroughly nourished skin.
@@ -29,7 +29,7 @@ const SecondSection = () => {
           <p className='text-gray-600 leading-normal font-bold text-5xl tracking-wider'>
             Color Words...
           </p>
-          <p className='text-gray-600 leading-relaxed font-medium text-3xl tracking-wider'>
+          <p className='text-gray-600 md:leading-relaxed lg:leading-relaxed font-medium text-2xl md:text-3xl lg:text-3xl tracking-wider'>
             What do a marula yellow<br></br> comb, a neon puffer bag, and <br></br>a bunch of bright
             compact <br></br>mirrors have in common?<br></br> Head to Drunk Life and check
             <br></br>out the bright side of things.
