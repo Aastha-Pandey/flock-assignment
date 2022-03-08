@@ -18,15 +18,15 @@ const Carousel = () => {
 
   return (
     <>
-      <div className='ml-10 py-8 caret-pink-500 custom_cursor'>
+      <div className='md:ml-10 lg:ml-10 py-8 caret-pink-500 custom_cursor'>
         <h1
-          style={{ fontSize: '12rem', color: 'rgb(255, 255, 26)' }}
-          className=' tracking-widest text-center font-semibold'
+          style={{ color: 'rgb(255, 255, 26)' }}
+          className='text-5xl md:text-[12rem] lg:text-[12rem] tracking-widest text-center font-semibold'
         >
           the line
         </h1>
 
-        <div className='flex justify-around '>
+        <div className='flex flex-col md:flex md:flex-row lg:flex lg:flex-row md:justify-around lg:justify-around items-center'>
           {products.slice(start, end).map((product) => {
             return (
               <div

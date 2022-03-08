@@ -15,12 +15,15 @@ const Header = () => {
         <nav
           className={
             !isVisible
-              ? 'flex z-10 fixed w-full h-12 px-10 justify-between items-center'
-              : 'flex  h-12 px-10 justify-between items-center'
+              ? 'flex z-10 fixed w-screen h-12 px-10 justify-between items-center'
+              : 'flex h-12 lg:px-10 md:px-10 justify-evenly md:justify-between lg:justify-between items-center'
           }
           style={{ backgroundColor: 'rgb(112,112,112)' }}
         >
-          <aside>{hamburgerMenuIcon}</aside>
+          <div className='flex space-x-3'>
+            <aside>{hamburgerMenuIcon}</aside>
+            <span className='block md:hidden lg:hidden'>{searchIcon}</span>
+          </div>
           {!isVisible ? (
             <img
               className='w-16'
@@ -35,8 +38,8 @@ const Header = () => {
             </pre>
           )}
 
-          <aside className='flex space-x-5'>
-            <span>{searchIcon}</span>
+          <aside className='flex space-x-3 lg:space-x-5 md:space-x-5'>
+            <span className='hidden md:block lg:block'>{searchIcon}</span>
             <span>{cartIcon}</span>
             <span>{userIcon}</span>
           </aside>

@@ -21,14 +21,16 @@ const ReviewCarousel = () => {
   return (
     <>
       <div className='flex flex-col items-center space-y-10 py-24 '>
-        <h1 className='text-5xl text-gray-600 font-bold tracking-widest '>fall #drunkinlove</h1>
+        <h1 className='text-3xl md:text-5xl lg:text-5xl text-gray-600 font-bold tracking-widest '>
+          fall #drunkinlove
+        </h1>
         <img
           className='w-28'
           alt='smiling mouth'
           src='https://cdn.shopify.com/s/files/1/0209/8446/files/LIPS_360x.png?v=1601059598'
         ></img>
 
-        <div className='flex space-x-44'>
+        <div className='flex  md:space-x-44 lg:space-x-44 space-x-2'>
           <button
             onClick={() => {
               if (count <= 0) {
@@ -41,7 +43,7 @@ const ReviewCarousel = () => {
               aria-hidden='true'
               focusable='false'
               role='presentation'
-              class='icon icon--wide icon-arrow w-28'
+              class='icon icon--wide icon-arrow md:w-28 lg:w-28 w-10'
               viewBox='0 0 111 65'
             >
               <g fill='none' fill-rule='evenodd' stroke='#fb48c4'>
@@ -50,10 +52,10 @@ const ReviewCarousel = () => {
             </svg>
           </button>
           <div className='flex flex-col items-center space-y-4 w-72'>
-            <div className='text-gray-500 tracking-widest text-center leading-9 font-medium text-3xl'>
+            <div className='text-gray-500 tracking-widest text-center leading-9 font-medium text-xl md:text-3xl lg:text-3xl'>
               {(count >= 0 || count >= reviews.length) && reviews[count].review}
             </div>
-            <div className='text-gray-500 tracking-widest text-center leading-9 font-medium text-lg uppercase'>
+            <div className='text-gray-500 tracking-widest text-center leading-9 font-medium text-md md:text-lg lg:text-lg uppercase'>
               {(count >= 0 || count >= reviews.length) && reviews[count].name}
             </div>
           </div>
@@ -69,7 +71,7 @@ const ReviewCarousel = () => {
               aria-hidden='true'
               focusable='false'
               role='presentation'
-              class='icon icon--wide icon-arrow w-28 rotate-180'
+              class='icon icon--wide icon-arrow md:w-28 lg:w-28 w-10 rotate-180'
               viewBox='0 0 111 65'
             >
               <g fill='none' fill-rule='evenodd' stroke='#fb48c4'>

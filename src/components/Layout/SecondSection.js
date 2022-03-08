@@ -2,17 +2,17 @@ const SecondSection = () => {
   return (
     <>
       {' '}
-      <div class='flex flex-col md:grid md:grid-cols-2 lg:grid lg:grid-cols-2   ml-10 '>
+      <div class='flex flex-col md:grid md:grid-cols-2 lg:grid lg:grid-cols-2  md:ml-10 lg:ml-10'>
         <div className='bg-gray-300 w-full pb-16 pt-10 px-10'>
           <img
-            className=' w-full '
+            className='w-full'
             alt=''
             src='/images/A-Gloei_Smoothie_Creative_04_1080px_720x.jpg'
           />
         </div>
         <div
           style={{ backgroundColor: 'rgb(255, 255, 26)' }}
-          className='  w-full p-20 flex flex-col space-y-10 '
+          className='w-full p-20 flex flex-col space-y-10 '
         >
           <p className='text-gray-600 leading-normal font-bold text-5xl tracking-wider'>
             Glowing

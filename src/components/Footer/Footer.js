@@ -25,7 +25,7 @@ const Footer = () => {
             <input
               type='text'
               placeholder='Enter your email'
-              className='placeholder:tracking-wider placeholder:text-center placeholder:font-medium placeholder:text-lg py-2 px-36 bg-transparent border-b border-gray-200'
+              className='placeholder:tracking-wider placeholder:text-center placeholder:font-medium placeholder:text-lg py-2 md:px-36 lg:px-36 bg-transparent border-b border-gray-200'
             />
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -46,9 +46,9 @@ const Footer = () => {
           >
             WHAT CAN WE HELP YOU FIND?
           </p>
-          <div className='flex space-x-4'>
+          <div className='md:flex lg:flex flex flex-col md:flex-row lg:flex-row   md:space-x-4 lg:space-x-4'>
             {tabs.map((tab) => (
-              <button className='hover:text-gray-400 uppercase text-xs text-gray-200 font-semibold tracking-wider'>
+              <button className='hover:text-gray-400 py-1 uppercase text-xs text-gray-200 font-semibold tracking-wider'>
                 {tab}
               </button>
             ))}

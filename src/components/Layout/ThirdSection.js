@@ -3,13 +3,13 @@ import ReviewCarousel from './ReviewCarousel';
 const ThirdSection = () => {
   return (
     <>
-      <div className='ml-10 bg-blue-50 flex flex-col space-y-5 '>
+      <div className='md:ml-10 lg:ml-10 bg-blue-50 flex flex-col space-y-5 '>
         <img className=' w-full' alt='' src='/images/DE_Site_Banner_1383x456px_1296x.jpg'></img>
-        <p className='text-5xl self-center py-10 font-bold tracking-widest text-gray-600'>
+        <p className='text-2xl md:text-5xl lg:text-5xl self-center py-10 font-bold tracking-widest text-gray-600'>
           happy skin = healthy skin
         </p>
 
-        <p className='text-gray-600  flex justify-start font-normal px-20 space-x-20 leading-relaxed  text-sm tracking-wider'>
+        <p className='text-gray-600 flex flex-col md:flex md:flex-row lg:flex lg:flex-row justify-start font-normal md:px-20 lg:px-20 md:space-x-20 lg:space-x-20 leading-relaxed  text-sm tracking-wider'>
           <img
             style={{ float: 'left' }}
             className='six-image relative'
@@ -50,8 +50,8 @@ const ThirdSection = () => {
           </div>
         </p>
 
-        <div className='flex'>
-          <p className='text-gray-600 px-40 font-normal leading-relaxed  text-sm tracking-wider'>
+        <div className='flex flex-col md:flex-row lg:flex-row'>
+          <p className='text-gray-600 px-8 md:px-40 lg:px-40 font-normal leading-relaxed  text-sm tracking-wider'>
             <h2 className='text-gray-600  leading-relaxed font-medium text-3xl tracking-wider py-2'>
               <span className='text-pink-600 underline decoration-1 px-2'>&nbsp;&nbsp;</span>
               skincare <span className='line-through'>regimen</span> smoothies
